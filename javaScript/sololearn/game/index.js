@@ -1,9 +1,7 @@
 window.onload = function () {
-  alert(
-    "Thanks everyone (specially SoloLearn) for making my code as Code Of The Day...\n👍👍👍"
-  );
+  alert("Game is start");
 
-  alert("Please make sure that your device is not in silent mode...");
+  alert("Let's go to game...");
 
   String.prototype.repeat =
     String.prototype.repeat ||
