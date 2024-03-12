@@ -1,4 +1,6 @@
-**_Lesson Takeaways_** - Fantastic job! 🚀 Now you can complete many arithmetic operations, and that's really cool!
+**_Lesson Takeaways_**
+
+ - Fantastic job! 🚀 Now you can complete many arithmetic operations, and that's really cool!
 
 - Here is a quick summary:
 
