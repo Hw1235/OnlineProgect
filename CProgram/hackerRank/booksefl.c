@@ -40,23 +40,23 @@ int main()
             /*
              * Process the query of first type here.
              */
-            int x, y;
-            scanf("%d %d", &x, &y);
-            *(*(total_number_of_pages + x) + *(total_number_of_books + x)) = y;
-            // total_number_of_pages[x][total_number_of_books[x]] = y;
-            total_number_of_books[x] += 1;
+            int shelf_number, number_of_pages;
+            scanf("%d %d", &shelf_number, &number_of_pages);
+            *(*(total_number_of_pages + shelf_number) + *(total_number_of_books + shelf_number)) = number_of_pages;
+            // total_number_of_pages[shelf_number][total_number_of_books[shelf_number]] = number_of_pages;
+            total_number_of_books[shelf_number] += 1;
         }
         else if (type_of_query == 2)
         {
-            int x, y;
-            scanf("%d %d\n", &x, &y);
-            printf("%d\n", *(*(total_number_of_pages + x) + y));
+            int shelf_number, number_of_pages;
+            scanf("%d %d\n", &shelf_number, &number_of_pages);
+            printf("%d\n", *(*(total_number_of_pages + shelf_number) + number_of_pages));
         }
         else
         {
-            int x;
-            scanf("%d", &x);
-            printf("%d\n\n", *(total_number_of_books + x));
+            int shelf_number;
+            scanf("%d", &shelf_number);
+            printf("%d\n\n", *(total_number_of_books + shelf_number));
         }
     }
 
